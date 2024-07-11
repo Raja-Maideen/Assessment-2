@@ -1,0 +1,47 @@
+.table-container {
+  margin: 20px;
+}
+
+#table-view {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.pagination {
+  margin: 10px;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.slider-inner {
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  display: inline-block;
+  width: 100%;
+  transition: opacity 0.5s;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
